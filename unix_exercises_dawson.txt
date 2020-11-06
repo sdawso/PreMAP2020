@@ -1,0 +1,33 @@
+Simon Dawson
+Astro 192
+Homework 2 - UNIX commands
+
+2.
+	a. C:\Users\sidaw\Astro192>
+4.
+	a. 7 files
+	b. StarCharts.pdf - 526014 bytes
+	c. dir (ls -l)
+5.
+	a. copy starheader.txt junk.dat (cp starheader.txt junk.dat)
+6.
+	a. ren junk.dat junque.dat (mv junk.dat junque.dat)
+7.
+	a. del junque.dat (rm junque.dat)
+8.
+	a. type starheader.txt (cat starheader.txt)
+	b. Num, RA, DE, Vmag, B-V, Parallax, uRA, uDec
+9.
+	a. echo Simon Dawson > small.dat
+
+*At this point I switched from Command Prompt to Git Bash*
+
+10.
+	a. head -100 BrightStars.dat | cat > small.dat
+11.
+	a. tail -10 BrightStars.dat | cat >> small.dat
+12.
+	a. BrightStars.dat - 5016 lines | small.dat - 110 lines
+	b. wc - l <filename>
+
+
